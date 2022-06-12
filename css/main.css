@@ -1,0 +1,149 @@
+body {
+	background: #f1f1f1!important;
+}
+
+#overlay {
+	width: 100%;
+	height: 100%;
+	background-color: rgb(192 185 187 / 87%);;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	padding: 10% 20%;
+	display: none;
+}
+
+#overlay h2 {
+	color: #dc3545;
+}
+	
+header {
+	border-radius: 12px;
+	background: #fff;
+	box-shadow: 0 2px 3px 0 rgba(74,74,74,.21);
+}
+
+header div .logo {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	display: inline-block;
+	border: 2px solid #a2252d;
+	transition: all 0.6s ease-in-out;
+}
+
+header div .logo:hover {
+	cursor: pointer;
+	transform: rotate(360deg);
+}
+
+header span.logo_text {
+	font-size: 1.8em;
+    margin-left: 10px;
+    line-height: 100%;
+    font-family: 'Suez One',sans-serif;
+    display: inline-block;
+    position: relative;
+    top: 18px;
+}
+
+header span.logo_text small {
+	font-size: 0.8em;
+	display: block;
+	color: #9c3737;
+}
+
+header .navigation {
+	margin-top: 25px;
+}
+
+#search {
+	margin-top: 25px;
+}
+
+header .btn {
+	border: 1px solid silver;
+}
+
+@media (max-width: 302px) {
+	.navigation button {
+		display: block;
+		text-align: center;
+		margin: 5% auto;
+	}
+
+	.img-thumbnail {
+		margin-top: 5%;
+	}
+}
+
+@media (max-width: 768px) {
+	.jumbobtn {
+		text-align: center;
+	}
+}
+
+@media (min-width: 768px) {
+	.card {
+		width: 45%;
+	}
+}
+
+@media (max-width: 992px) {
+	header {
+		text-align: center;
+	}
+	.text-right-test {
+		text-align: center;
+	}
+	.img-thumbnail {
+		margin-top: 5%;
+	}
+	.announce {
+		margin-top: 5%;
+	}
+}
+
+@media (min-width: 992px) {
+	.text-right-test {
+		text-align: right;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+	.articles > div {
+		padding: 0!important;
+	}
+
+	.col-12.col-lg-8 {
+		display: flex!important;
+		flex-wrap: wrap!important;
+	}
+}
+
+.jumbotron {
+    border: 2px solid #5f1012;
+    margin-bottom: 50px;
+}
+
+.articles h3 {
+	font-size: 2em;
+	color: #404040;
+}
+
+.card {
+	margin-bottom: 5%;
+	margin-right: 5%;
+	float: left;
+}
+
+.blog-footer {
+	width: 100%;
+	text-align: center;
+	margin-top: 70px;
+	background: #f9f9f9;
+	border: 2px solid #e5e5e5;
+	border-bottom: 0;
+	border-radius: 12px 12px 0px 0px;
+	padding: 30px 0;
+}
